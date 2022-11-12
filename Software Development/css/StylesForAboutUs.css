@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font: normal 16px sans-serif;
+  color:black;
+}
+a {
+  text-decoration:none;
+  color:inherit;
+}
+.Descripcion {
+  background-color: #cccccc ;
+  margin-left: 250px;
+  width: 900px;
+}
+
+.Descripcion h3{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+p.contactanos{
+  margin-top: 60px;
+  margin-right: 190px;
+}
+ul.grid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.background-image{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+}
+/* sections */
+section{
+  display:flex;
+  flex-direction: column;
+  align-items: normal;
+  padding: 30px 125px;
+}
+
+section h1{
+  color:gray;
+  font:bold 32px "OpenSans", sans-serif;
+  max-width: 300px;
+  margin-bottom: 6px;
+}
+
+section h2.title{
+  color:black;
+  font:bold 32px "OpenSans", sans-serif;
+}
+section p{
+  max-width: 550px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+/* Class Button*/
+.Button{
+  justify-content: center;
+  text-align:  center;
+}
+
+.Button a.btnIniciarSesion {
+  color:white;
+  border-bottom: white;
+  background-color: #80d720;
+  font-weight: 8000;
+  text-align: center;
+}
+.Button a.btnAbout{
+  color:black;
+  border-bottom: white;
+  background-color: #adfd92;
+  font-weight: 8000;
+  text-align: center;
+}
+.Button a.btnTerm{
+  color:black;
+  border-bottom: white;
+  background-color: #cccccc ;
+  font-weight: 8000;
+  text-align: center;
+}
+.Button form {
+   align-items: end;
+  justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.Button form .btnAbout {
+    padding: 18px 42px;
+}
+.Button form .btnTerm {
+  padding: 18px 42px;
+}
+.Button form .btnIniciarSesion {
+  padding: 18px 52px;
+}
+
+
+
